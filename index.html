@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Unlimit3D | Manufactura Aditiva Next-Gen</title>
-    <meta name="description" content="Laboratorio creativo de impresión 3D y fabricación digital. Objetos singulares con tecnología de precisión.">
+    <meta name="description"
+        content="Laboratorio creativo de impresión 3D y fabricación digital. Objetos singulares con tecnología de precisión.">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&family=Inter:wght@300;400;500&display=swap"
+        rel="stylesheet">
 
     <!-- CSS -->
     <link rel="stylesheet" href="./css/styles.css">
 
     <!-- Icons -->
     <script src="https://unpkg.com/lucide@latest"></script>
-    
+
     <!-- GSAP & Lenis -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
@@ -24,6 +28,7 @@
     <!-- SplitType -->
     <script src="https://unpkg.com/split-type"></script>
 </head>
+
 <body>
 
     <!-- 1. Splash Screen -->
@@ -54,24 +59,28 @@
 
     <main id="smooth-wrapper">
         <div id="smooth-content">
-            
+
             <!-- 3. Hero Cinematográfico -->
             <section class="hero" id="home">
                 <div class="ambient-glow" style="top: 20%; left: 10%;"></div>
-                <div class="ambient-glow" style="bottom: 10%; right: 10%; background: radial-gradient(circle, var(--accent-violet) 0%, transparent 70%);"></div>
-                
+                <div class="ambient-glow"
+                    style="bottom: 10%; right: 10%; background: radial-gradient(circle, var(--accent-violet) 0%, transparent 70%);">
+                </div>
+
                 <div class="hero-bg">
                     <!-- Placeholder video, can be swapped later -->
                     <video autoplay loop muted playsinline>
-                        <source src="https://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+                        <source src="https://www.pexels.com/es-es/download/video/30246657/" type="video/mp4">
                     </video>
                     <div class="hero-bg-overlay"></div>
                 </div>
 
                 <div class="hero-content">
-                    <h1 class="hero-title">EL FUTURO DE LA<br><span class="text-gradient-accent">FABRICACIÓN</span></h1>
-                    <p class="hero-subtitle">No somos un servicio de impresión estándar. Somos un estudio de manufactura digital dedicado a la perfección milimétrica.</p>
-                    <a href="#featured" class="btn-premium" style="padding: 16px 32px; font-size: 1rem;">Explorar Colección</a>
+                    <h1 class="hero-title">IMPRESIONES 3D<br><span class="text-gradient-accent">TUCUMÁN</span></h1>
+                    <p class="hero-subtitle">No somos un servicio de impresión estándar. Somos un estudio de manufactura
+                        digital dedicado a la perfección milimétrica.</p>
+                    <a href="#featured" class="btn-premium" style="padding: 16px 32px; font-size: 1rem;">Explorar
+                        Colección</a>
                 </div>
 
                 <div class="scroll-indicator">
@@ -88,7 +97,7 @@
                         <span class="section-tag">Colección Élite</span>
                         <h2 class="section-title reveal-text">Piezas Destacadas</h2>
                     </div>
-                    
+
                     <div class="bento-grid">
                         <div class="bento-item span-2 span-row-2">
                             <span class="bento-tag">Arte Funcional</span>
@@ -135,22 +144,26 @@
                         <h2 class="section-title reveal-text">Especialidades</h2>
                     </div>
                     <div class="bento-grid">
-                        <div class="bento-item glass-panel" style="padding: var(--spacing-md); display:flex; flex-direction:column; justify-content:center;">
+                        <div class="bento-item glass-panel"
+                            style="padding: var(--spacing-md); display:flex; flex-direction:column; justify-content:center;">
                             <i data-lucide="cpu" class="benefit-icon"></i>
                             <h3 class="bento-title">Piezas de Ingeniería</h3>
                             <p class="bento-desc">Engranajes, soportes y mecanismos funcionales.</p>
                         </div>
-                        <div class="bento-item glass-panel" style="padding: var(--spacing-md); display:flex; flex-direction:column; justify-content:center;">
+                        <div class="bento-item glass-panel"
+                            style="padding: var(--spacing-md); display:flex; flex-direction:column; justify-content:center;">
                             <i data-lucide="lightbulb" class="benefit-icon"></i>
                             <h3 class="bento-title">Cartelería & Iluminación</h3>
                             <p class="bento-desc">Logos corpóreos y lámparas translúcidas.</p>
                         </div>
-                        <div class="bento-item glass-panel" style="padding: var(--spacing-md); display:flex; flex-direction:column; justify-content:center;">
+                        <div class="bento-item glass-panel"
+                            style="padding: var(--spacing-md); display:flex; flex-direction:column; justify-content:center;">
                             <i data-lucide="gift" class="benefit-icon"></i>
                             <h3 class="bento-title">Regalos Exclusivos</h3>
                             <p class="bento-desc">Merchandising y mates personalizados.</p>
                         </div>
-                        <div class="bento-item glass-panel" style="padding: var(--spacing-md); display:flex; flex-direction:column; justify-content:center;">
+                        <div class="bento-item glass-panel"
+                            style="padding: var(--spacing-md); display:flex; flex-direction:column; justify-content:center;">
                             <i data-lucide="car" class="benefit-icon"></i>
                             <h3 class="bento-title">Accesorios Moto/Auto</h3>
                             <p class="bento-desc">Piezas a medida descontinuadas o custom.</p>
@@ -171,17 +184,20 @@
                             <div class="step-item active">
                                 <div class="step-num">01</div>
                                 <h3 class="step-title">Modelado CAD</h3>
-                                <p class="bento-desc">Diseñamos la pieza desde cero usando software industrial de alta precisión matemática.</p>
+                                <p class="bento-desc">Diseñamos la pieza desde cero usando software industrial de alta
+                                    precisión matemática.</p>
                             </div>
                             <div class="step-item">
                                 <div class="step-num">02</div>
                                 <h3 class="step-title">Slicing & Optimización</h3>
-                                <p class="bento-desc">Calculamos soportes, relleno estructural y capas milimétricas para máxima resistencia.</p>
+                                <p class="bento-desc">Calculamos soportes, relleno estructural y capas milimétricas para
+                                    máxima resistencia.</p>
                             </div>
                             <div class="step-item">
                                 <div class="step-num">03</div>
                                 <h3 class="step-title">Impresión Aditiva</h3>
-                                <p class="bento-desc">Nuestras máquinas operan con polímeros avanzados creando el objeto capa por capa.</p>
+                                <p class="bento-desc">Nuestras máquinas operan con polímeros avanzados creando el objeto
+                                    capa por capa.</p>
                             </div>
                         </div>
                         <div class="process-right">
@@ -204,17 +220,20 @@
                         <div class="benefit-card">
                             <i data-lucide="layers" class="benefit-icon"></i>
                             <h3 class="bento-title">Geometrías Complejas</h3>
-                            <p class="bento-desc">Podemos fabricar formas que serían imposibles con moldes de inyección tradicionales.</p>
+                            <p class="bento-desc">Podemos fabricar formas que serían imposibles con moldes de inyección
+                                tradicionales.</p>
                         </div>
                         <div class="benefit-card">
                             <i data-lucide="zap" class="benefit-icon"></i>
                             <h3 class="bento-title">Rapid Prototyping</h3>
-                            <p class="bento-desc">Tenés tu idea materializada en días, no en meses. Iteración rápida a bajo costo.</p>
+                            <p class="bento-desc">Tenés tu idea materializada en días, no en meses. Iteración rápida a
+                                bajo costo.</p>
                         </div>
                         <div class="benefit-card">
                             <i data-lucide="shield-check" class="benefit-icon"></i>
                             <h3 class="bento-title">Materiales Técnicos</h3>
-                            <p class="bento-desc">Uso de Fibra de Carbono, ABS, ASA y resinas de ingeniería de alta dureza.</p>
+                            <p class="bento-desc">Uso de Fibra de Carbono, ABS, ASA y resinas de ingeniería de alta
+                                dureza.</p>
                         </div>
                     </div>
                 </div>
@@ -229,16 +248,28 @@
                     </div>
                     <div class="faq-container">
                         <div class="faq-item">
-                            <button class="faq-question">¿Realizan envíos a todo el país? <i data-lucide="chevron-down" class="faq-icon"></i></button>
-                            <div class="faq-answer"><p style="padding-top:10px;">Sí, empacamos nuestras piezas con protección extrema y realizamos envíos a toda Argentina.</p></div>
+                            <button class="faq-question">¿Realizan envíos a todo el país? <i data-lucide="chevron-down"
+                                    class="faq-icon"></i></button>
+                            <div class="faq-answer">
+                                <p style="padding-top:10px;">Sí, empacamos nuestras piezas con protección extrema y
+                                    realizamos envíos a toda Argentina.</p>
+                            </div>
                         </div>
                         <div class="faq-item">
-                            <button class="faq-question">¿Tengo que tener el diseño 3D listo? <i data-lucide="chevron-down" class="faq-icon"></i></button>
-                            <div class="faq-answer"><p style="padding-top:10px;">No es necesario. Contamos con un equipo de diseño industrial que puede modelar tu idea desde un boceto o plano.</p></div>
+                            <button class="faq-question">¿Tengo que tener el diseño 3D listo? <i
+                                    data-lucide="chevron-down" class="faq-icon"></i></button>
+                            <div class="faq-answer">
+                                <p style="padding-top:10px;">No es necesario. Contamos con un equipo de diseño
+                                    industrial que puede modelar tu idea desde un boceto o plano.</p>
+                            </div>
                         </div>
                         <div class="faq-item">
-                            <button class="faq-question">¿Qué duración tienen las piezas? <i data-lucide="chevron-down" class="faq-icon"></i></button>
-                            <div class="faq-answer"><p style="padding-top:10px;">Depende del material elegido. Usamos plásticos técnicos resistentes a rayos UV y altas temperaturas, diseñados para durar años.</p></div>
+                            <button class="faq-question">¿Qué duración tienen las piezas? <i data-lucide="chevron-down"
+                                    class="faq-icon"></i></button>
+                            <div class="faq-answer">
+                                <p style="padding-top:10px;">Depende del material elegido. Usamos plásticos técnicos
+                                    resistentes a rayos UV y altas temperaturas, diseñados para durar años.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -249,8 +280,10 @@
                 <div class="ambient-glow"></div>
                 <div class="container" style="position: relative; z-index: 2;">
                     <h2 class="cta-title text-gradient">¿Listo para materializar<br>tu proyecto?</h2>
-                    <p class="bento-desc" style="font-size: 1.2rem; margin-bottom: var(--spacing-md);">Hablemos directamente por WhatsApp y coticemos tu idea.</p>
-                    <a href="https://wa.me/5493814484845" class="btn-premium" target="_blank" style="padding: 20px 40px; font-size: 1.1rem;">
+                    <p class="bento-desc" style="font-size: 1.2rem; margin-bottom: var(--spacing-md);">Hablemos
+                        directamente por WhatsApp y coticemos tu idea.</p>
+                    <a href="https://wa.me/5493814484845" class="btn-premium" target="_blank"
+                        style="padding: 20px 40px; font-size: 1.1rem;">
                         <i data-lucide="rocket"></i> Iniciar Proyecto
                     </a>
                 </div>
@@ -262,7 +295,8 @@
                     <div class="footer-grid">
                         <div class="footer-brand">
                             <img src="./assets/media__1778087438264.png" alt="Unlimit3D">
-                            <p class="footer-desc" style="margin-top: 15px;">Estudio de manufactura digital y diseño paramétrico en Tucumán.</p>
+                            <p class="footer-desc" style="margin-top: 15px;">Estudio de manufactura digital y diseño
+                                paramétrico en Tucumán.</p>
                         </div>
                         <div class="footer-col">
                             <h4>Navegación</h4>
@@ -295,4 +329,5 @@
         lucide.createIcons();
     </script>
 </body>
+
 </html>
